@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="70" height="110" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="music" value="The Mana World - Peace.ogg"/>
+  <property name="name" value="Tulimshar suburbs indoor"/>
+ </properties>
+ <tileset firstgid="1" source="../tilesets/collision.tsx"/>
+ <tileset firstgid="3" source="../tilesets/inn.tsx"/>
+ <tileset firstgid="259" source="../tilesets/inn2.tsx"/>
+ <tileset firstgid="515" source="../tilesets/inn_x2.tsx"/>
+ <tileset firstgid="547" source="../tilesets/inn_x3.tsx"/>
+ <layer name="Ground1" width="70" height="110">
+  <data encoding="base64" compression="zlib">
+   eJzt2jESgjAQQNF4/+OIJ9EbyCXopNOBwYFAXGd5xeto9s+SJhlKKQMAAAAAAMBG10t70TPqoosuuvwTXXTRRRddAAAAAACAWu4D6rp0J+5yHz3sy6zLc9QfuB9ZujhfdNFFl8guN13sCwAAAAAAJOM+YLnL9K5+z11Rpi41trSLnrF1l5o3IF2CLtMdWOqw9ruz7Ivz5dgzOHrG2i4t3o59do2escW+rN2jb22jZ/xll+z/EQAAAABvL5vxea4=
+  </data>
+ </layer>
+ <layer name="Ground2" width="70" height="110">
+  <data encoding="base64" compression="zlib">
+   eJzt3DlOw1AQxvGHWAtAoCDRAA0g6DkEEluLxHYAtiPQQE0DNQ3UdCwnAE4AXCUdY8mWkpdnx544TGT/i5+G2BDpGzmh8Cc3nXNNAAAAAAAAAADEsBgTowVn3mMTA5BRoyHm4rnmvfbnasvr0O8kP29656wzaiyLFcXMOrbvnbPOqLEltgNzo0TWGTUOxGFgRnlehtrzTYopMV2DvZyKs8AM5VsQi2Ip5Xza3qwzavjZ/Guk1at4E+8F92adsd97+RCf4ivlfJU+RztiNzBD+b7Fj/itwV6OxHFg1v3/0bm4CMy8n600rX9jnVGjzOuiStcLAAAAAAAAAAy6qOcx4vL3O8ZdZ6cj6nLsxe9VxZ7HvAv3NLI6HUn34ySeEb8vYp1RI9Tj8HsaeXoel/GMrHvTOqNGWfdCrlxnRyS5d2mdUbuXO3FfYAeh3sKta++IRJJ7l9YZtXt5FE8F9hLqLTy4zo5Icu/SOqN2L2V4zjhnnfG/9hL1YNI6MFXbS5GOWNT3KNL1sM7Yy166dcR6YZ2xl730k3VG9gIAAAAAAAAA9cHzPMIaLrvPkTbzHEv6ItYZNfrxPA+/L2KdUSPt3saMmM04X/X7JNw/Yi/spfy9dHuWSV330u1ZJprvY+uMZexF+yyTrL1ZZ9S4FjfKHXSTvLd1xjKuF753AQAAAAAA4PsDr1CJ4A==
+  </data>
+ </layer>
+ <layer name="Fringe" width="70" height="110">
+  <data encoding="base64" compression="zlib">
+   eJzt3EsKwjAQANDQnaigp9FzeCe9gV5Qr9C92RRKSJsqaH/vwSzaSSCThmwaEgIAAAAAAPBL1xi3sQcxQfcYjxiHGMck94zx+vuIpuFUhXCu8rldfL/vyLFsm+S7b62DQcwbAAAAAAAAAPxG7hzLZZyhjKrvPI9zC847wSfsGQAAAAAAAMO4wyOvucNjLepCrsk3d3j0tV+KXI11T67UZu7//NPxl57b1rBeupRqb+fnvkZSpXpyc5PrU/fklmpNtaa+2V9L/ZZqjTUDAAAAwBBvFyAblQ==
+  </data>
+ </layer>
+ <layer name="Over" width="70" height="110">
+  <data encoding="base64" compression="zlib">
+   eJzt3DsKACEMBUDvLR5cKxurrRai+GEGHiFdSB2SEgAAAAAAAJwhf/qyZYr72BsAEXVh2qgAAAAAAAAAAMT9vdWIBAAAAAAAAACAuFm3HP55AAAAALyrA1gqSug=
+  </data>
+ </layer>
+ <layer name="Collision" width="70" height="110">
+  <data encoding="base64" compression="zlib">
+   eJzt0lEKwyAQBcDg/Q/d3yKrsTFmazsLQxqi0vewHMdRAAAAAAAAWOqOyc7wVC9Xe8vOsrKXT9fs3std0zs7O2NmL73JzvitfWVn0YtedsrfmuyMAAAAAAAAkbsmOjM72+peenn/qZeRb/UZ/9DLSD/R2rNzdvLEZGec6WVlV9kZr/ay+h5lZ5y5LysnO6NeAAAAAAAAxr1PqX631rf2tyY740wvUcaR/KV61nt37SXqp/cedXI22dlm+uhlGv3eOjM749VezjrqZY3Wte7cTkbn6r5o7w7q/9/L1loT3Y1f6qXXx8xkZ1zRyx2TnREAAACAOS8bPDf7
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="70" height="110">
+  <object name="To Outside" type="warp" x="928" y="1984" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="Tulimshar_suburbs"/>
+    <property name="dest_x" value="2080"/>
+    <property name="dest_y" value="3360"/>
+   </properties>
+  </object>
+  <object name="To Outside" type="warp" x="704" y="2976" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="Tulimshar_suburbs"/>
+    <property name="dest_x" value="2912"/>
+    <property name="dest_y" value="3296"/>
+   </properties>
+  </object>
+  <object name="To Outside" type="warp" x="1408" y="2976" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="Tulimshar_suburbs"/>
+    <property name="dest_x" value="3328"/>
+    <property name="dest_y" value="3296"/>
+   </properties>
+  </object>
+  <object name="Main script" type="script" x="1184" y="768" width="32" height="32">
+   <properties>
+    <property name="filename" value="scripts/maps/Tulimshar_suburbs_indoor.lua"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

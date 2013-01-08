@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<monsters>
+    <monster id="1" name="Maggot" targetCursor="small">
+        <sprite>monsters/maggot.xml</sprite>
+        <sound event="hit">monsters/maggot/hit1.ogg</sound>
+        <sound event="hit">monsters/maggot/hit2.ogg</sound>
+        <sound event="miss">monsters/maggot/miss1.ogg</sound>
+        <sound event="die">monsters/maggot/dying1.ogg</sound>
+        <drop item="Bug leg" percent="4" />
+        <drop item="Cactus drink" percent="1.5"/>
+        <drop item="Cactus potion" percent="0.7" />
+        <drop item="Maggot slime" percent="8"/>
+        <drop item="Roasted maggot" percent="1.5" />
+        <drop item="Sharp knife" percent="0.1" />
+        <attributes hp="50" size="4" speed="2.0" attack-min="5"
+            attack-delta="5" attack-magic="0" hit="10" evade="5"
+            magical-evade="5" physical-defence="0" magical-defence="5"
+            mutation="0"/>
+        <vulnerability element="fire" factor="1.5"/>
+        <vulnerability element="earth" factor="0.7"/>
+        <exp>6</exp>
+        <!-- average stroll- and track range-->
+        <behavior aggressive="false" cowardly="false" track-range="5"
+            stroll-range="32" attack-distance="32"/>
+        <attack id="1" priority="1" type="physical" pre-delay="10"
+            aft-delay="5" damage-factor="1" range="32" animation="attack"
+            script-event="strike"/>
+    </monster>
+
+    <monster id="2" name="Fire goblin">
+        <sprite>monsters/fire_goblin.xml</sprite>
+        <sound event="hit">monsters/fire_goblin/hit1.ogg</sound>
+        <sound event="hit">monsters/fire_goblin/hit2.ogg</sound>
+        <sound event="miss">monsters/fire_goblin/miss1.ogg</sound>
+        <drop item="Bug leg" percent="4" />
+        <drop item="Cactus drink" percent="1.5"/>
+        <drop item="Cactus potion" percent="0.7" />
+        <drop item="Maggot slime" percent="8"/>
+        <drop item="Roasted maggot" percent="1.5" />
+        <drop item="Sharp knife" percent="0.1" />
+        <attributes hp="220" size="4" speed="2.0" attack-min="15"
+            attack-delta="5" attack-magic="0" hit="10" evade="5"
+            magical-evade="5" physical-defence="5" magical-defence="0"
+            mutation="30"/>
+        <vulnerability element="fire" factor="1.5"/>
+        <vulnerability element="earth" factor="0.7"/>
+        <exp>33</exp>
+        <!-- average stroll- and track range-->
+        <behavior aggressive="false" cowardly="false" track-range="5"
+            stroll-range="32" attack-distance="32"/>
+        <attack id="1" priority="1" type="physical" pre-delay="10"
+            aft-delay="5" damage-factor="1" range="32" animation="attack"
+            script-event="strike" effect-id="5"/>
+    </monster>
+</monsters>

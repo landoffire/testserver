@@ -1,0 +1,11 @@
+<statistics>
+<heartbeat="2013-01-07_16:53:55" />
+<accountserver address="localhost" clientport="9601" gameport="9602" chatclientport="9603" />
+<gameserver address="localhost" port="9604">
+<map id="1" nb_entities="8" nb_monsters="14">
+<character id="1"/>
+</map>
+<map id="2" nb_entities="9" nb_monsters="0">
+</map>
+</gameserver>
+</statistics>

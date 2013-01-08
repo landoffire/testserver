@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items>
+    <!-- Kept for now to display the player correctly. Will be moved to races.xml later -->
+    <item id="-1" type="hairsprite" name="Flat ponytail">
+        <sprite>races/human/hairstyles/flat_ponytail.xml</sprite>
+    </item>
+    <item id="-2" type="hairsprite" name="Bowl cut">
+        <sprite>races/human/hairstyles/bowl_cut.xml</sprite>
+    </item>
+    <item id="-3" type="hairsprite" name="Combed back">
+        <sprite>races/human/hairstyles/combed_back.xml</sprite>
+    </item>
+    <item id="-4" type="hairsprite" name="Emo">
+        <sprite>races/human/hairstyles/emo.xml</sprite>
+    </item>
+    <item id="-5" type="hairsprite" name="Mohawk">
+        <sprite>races/human/hairstyles/mohawk.xml</sprite>
+    </item>
+    <item id="-6" type="hairsprite" name="Pompadour">
+        <sprite>races/human/hairstyles/pompadour.xml</sprite>
+    </item>
+    <item id="-7" type="hairsprite" name="Center parting/Short and slick">
+        <sprite>races/human/hairstyles/center_parting.xml</sprite>
+    </item>
+    <item id="-8" type="hairsprite" name="Long and slick">
+        <sprite>races/human/hairstyles/long_and_slick.xml</sprite>
+    </item>
+    <item id="-9" type="hairsprite" name="Short and curly">
+        <sprite>races/human/hairstyles/short_and_curly.xml</sprite>
+    </item>
+    <item id="-10" type="hairsprite" name="Pigtails">
+        <sprite>races/human/hairstyles/pigtails.xml</sprite>
+    </item>
+    <item id="-11" type="hairsprite" name="Long and curly">
+        <sprite>races/human/hairstyles/long_and_curly.xml</sprite>
+    </item>
+    <item id="-12" type="hairsprite" name="Parted">
+        <sprite>races/human/hairstyles/parted.xml</sprite>
+    </item>
+    <item id="-13" type="hairsprite" name="Perky ponytail">
+        <sprite>races/human/hairstyles/perky_ponytail.xml</sprite>
+    </item>
+    <item id="-14" type="hairsprite" name="Wave">
+        <sprite>races/human/hairstyles/wave.xml</sprite>
+    </item>
+    <item id="-15" type="hairsprite" name="Mane">
+        <sprite>races/human/hairstyles/mane.xml</sprite>
+    </item>
+    <item id="-16" type="hairsprite" name="Bun">
+        <sprite>races/human/hairstyles/bun.xml</sprite>
+    </item>
+
+    <!-- Base race player sprite -->
+    <item id="-100" type="racesprite" name="Human">
+        <sprite gender="male">races/human/male.xml</sprite>
+        <sprite gender="female">races/human/female.xml</sprite>
+    </item>
+
+    <item id="1" max-per-slot="1" name="Cotton shirt"
+        description="A shirt made of 100% cotton."
+        image="equipment/chest/cotton_shirt.png|W:#a4b2b2,ffffff"
+        weight="13">
+        <equip>
+            <slot type="torso" required="1" />
+        </equip>
+        <!--
+        <effect trigger="equip">
+            <modifier attribute="M. Attack" value="-2" />
+        </effect>
+        -->
+        <effect trigger="equip">
+            <modifier attribute="def1" value="2" />
+        </effect>
+        <sprite gender="male">equipment/chest/cotton-male.xml|#a4b2b2,ffffff</sprite>
+        <sprite gender="female">equipment/chest/cotton-female.xml|#a4b2b2,ffffff</sprite>
+    </item>
+
+    <item id="2" max-per-slot="1" name="Knife" attack-action="attack"
+        description="A small knife; the perfect weapon for a beginner."
+        image="equipment/weapon/dagger/knife.png"
+        weight="120">
+        <equip>
+            <slot type="hand" required="1" />
+        </equip>
+        <effect trigger="equip">
+            <autoattack skill="100" warmupspeed="10" cooldownspeed="166"
+                basedamage="50" deltadamage="10" chancetohit="2" range="32"
+                element="neutral" damagetype="physical" />
+            <modifier attribute="acc1" value="1.5" />
+        </effect>
+        <sprite>equipment/weapon/dagger.xml</sprite>
+    </item>
+
+    <item id="3" max-per-slot="99" name="Maggot slime"
+        description="Slimy maggot slime." image="generic/maggot_slime.png"
+        weight="1" />
+
+    <item id="4" max-per-slot="99" name="Cactus drink"
+        description="A fresh drink." image="use/potions/tiny.png|G:#22ff22"
+        type="usable" hp="15" weight="4" tag="Potions">
+        <effect trigger="activation">
+            <scriptevent activate="use" />
+            <consumes />
+        </effect>
+    </item>
+
+    <item id="5" max-per-slot="99" name="Bug leg"
+        description="A bug's leg. Mostly used for alchemy."
+        image="generic/bug_leg.png" type="generic" weight="1" />
+
+    <item id="6" max-per-slot="99" name="Roasted maggot"
+        description="A maggot roasted on fire."
+        image="use/food/roasted_maggot.png"
+        type="usable" hp="150" weight="5">
+        <effect trigger="activation">
+            <scriptevent activate="use" />
+            <consumes />
+        </effect>
+    </item>
+
+    <item id="7" max-per-slot="99" name="Cactus potion"
+        description="A fresh potion."
+        image="use/potions/tiny.png|G:#ff2222"
+        type="usable" hp="25" weight="7" tag="Potions" />
+
+    <item id="8" max-per-slot="1" name="Sharp knife" attack-action="attack"
+        description="A really sharp knife. Don't hurt yourself!"
+        image="equipment/weapon/dagger/sharp_knife.png"
+        weapon-type="knife"
+        weight="150">
+        <equip>
+            <slot type="hand" required="1" />
+        </equip>
+        <effect trigger="equip">
+            <autoattack skill="100" warmupspeed="10" cooldownspeed="166"
+                basedamage="50" deltadamage="10" chancetohit="2" range="32"
+                element="neutral" damagetype="physical" />
+            <modifier attribute="acc1" value="1.5" />
+        </effect>
+        <sprite>equipment/weapon/dagger.xml</sprite>
+        <sound event="strike">weapons/knives/sharp_knife_miss1.ogg</sound>
+    </item>
+</items>

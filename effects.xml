@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<effects>
+    <!-- System effects -->
+    <effect id="0" audio="sfx/system/level_up.ogg"
+        particle="graphics/particles/level_up.xml"/>
+
+    <effect id="1" audio="sfx/system/level_up.ogg"
+        particle="graphics/particles/skill_up.xml"/>
+
+    <!-- Magic sample -->
+    <effect id="2" particle="graphics/particles/magic.white.xml"/>
+
+    <!-- Attacks related -->
+    <effect id="3" particle="graphics/particles/hit.particle.xml"/>
+    <effect id="4" particle="graphics/particles/arrow-hail.xml"/>
+    <effect id="5" particle="graphics/particles/monster/goblin_fire_breath.xml"/>
+
+    <!-- Emotion effects -->
+    <effect id="10000" particle="graphics/emotes/disgust.xml"/>
+    <effect id="10001" particle="graphics/emotes/surprise.xml"/>
+    <effect id="10002" particle="graphics/emotes/happy.xml"/>
+    <effect id="10003" particle="graphics/emotes/sad.xml"/>
+    <effect id="10004" particle="graphics/emotes/evil.xml"/>
+    <effect id="10005" particle="graphics/emotes/wink.xml"/>
+    <effect id="10006" particle="graphics/emotes/angel.xml"/>
+    <effect id="10007" particle="graphics/emotes/blush.xml"/>
+    <effect id="10008" particle="graphics/emotes/tongue.xml"/>
+    <effect id="10009" particle="graphics/emotes/grin.xml"/>
+    <effect id="10010" particle="graphics/emotes/upset.xml"/>
+    <effect id="10011" particle="graphics/emotes/perturbed.xml"/>
+    <effect id="10012" particle="graphics/emotes/speech.xml"/>
+    <effect id="10013" particle="graphics/emotes/blah.xml"/>
+</effects>

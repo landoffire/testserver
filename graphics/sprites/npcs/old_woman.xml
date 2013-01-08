@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<sprite>
+  <imageset name="base" src="graphics/sprites/npcs/old_woman.png" width="21" height="53"/>
+  <action name="stand" imageset="base">
+    <animation direction="default">
+      <frame index="0"/>
+    </animation>
+  </action>
+</sprite>
