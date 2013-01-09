@@ -150,7 +150,7 @@
  <option name="net_chatListenToClientPort" value="9603"/>
  <!-- needed to set when hosting behind router or in situations
       where you cannot bind the server to the public url -->
- <!-- <option name="net_publicChatHost" value="mydomain.org"/> -->
+ <option name="net_publicChatHost" value="landoffire.org"/>
 
  <!--
  The clients use this address to connect to a game server on this machine.
@@ -161,13 +161,13 @@
  <option name="net_gameListenToClientPort" value="9604"/>
  <!-- needed to set when hosting behind router or in situations
       where you cannot bind the server to the public url -->
- <!-- <option name="net_publicGameHost" value="mydomain.org"/> -->
+ <option name="net_publicGameHost" value="landoffire.org"/>
 
  <!--
  Update host url: E.g.: "http://updates.manasource.org/"
  It gives the http folder where the update files can be downloaded.
  -->
- <option name="net_defaultUpdateHost" value="" />
+ <option name="net_defaultUpdateHost" value="http://landoffire.org/manaserv" />
 
  <!--
  Client data url: E.g.: "http://data.manasource.org/"
@@ -175,7 +175,7 @@
  The base URL where the client will get its data from. This is a new update
  mechanism that replaces the update host, used by the Mana Mobile client.
  -->
- <option name="net_clientDataUrl" value="" />
+ <option name="net_clientDataUrl" value="http://landoffire.org/manaserv" />
 
  <!-- Max connected clients allowed. -->
  <option name="net_maxClients" value="1000"/>
@@ -217,7 +217,7 @@
  <!--
  New player starting location. The map should be defined in data/maps.xml.
  -->
- <option name="char_startMap" value="2"/>
+ <option name="char_startMap" value="3"/>
  <!--
      Respawn coordinates on the start map:
      In pixels, not in tiles.
@@ -226,7 +226,7 @@
  <option name="char_startY" value="832"/>
 
  <!-- Respawn options -->
- <option name="char_respawnMap" value="2"/>
+ <option name="char_respawnMap" value="3"/>
  <!--
      Respawn coordinates on the respawn map:
      In pixels, not in tiles.
