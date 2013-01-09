@@ -17,4 +17,11 @@
     </npc>
     <npc id="3"><sprite>npcs/little_blue_haired_girl.xml</sprite></npc><!-- Little blue haired girl -->
     <npc id="4"><sprite>npcs/old_woman.xml</sprite></npc><!-- Old woman -->
+    <npc id="5"><!-- testnpc -->
+        <sprite>races/human/male.xml</sprite>
+        <sprite>equipment/legs/chaps-male.xml</sprite>
+        <sprite>equipment/chest/forest-armor-male.xml</sprite>
+        <sprite>equipment/feet/boots-male.xml</sprite>
+        <sprite>equipment/head/bull.xml</sprite>
+    </npc>
 </npcs>
