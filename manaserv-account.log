@@ -1,6 +1,0 @@
-[16:48:24] [INF] Using log file: ./manaserv-account.log
-[16:48:24] [INF] Using statistics file: ./manaserv.stats
-[16:48:24] [INF] Trying to connect with SQLite database file 'mana.db'
-[16:48:24] [INF] Connection to database successful.
-[16:48:25] [INF] The Mana Account+Chat Server v0.1.0.0
-[16:48:25] [INF] Manaserv Protocol version 1, Enet version 1.3.3, Database version 21
