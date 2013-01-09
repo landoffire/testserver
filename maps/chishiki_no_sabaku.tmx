@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="200" height="200" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" source="../tilesets/tulimshar1.tsx"/>
+ <tileset firstgid="257" source="../tilesets/desert1.tsx"/>
+ <tileset firstgid="513" source="../tilesets/desert2.tsx"/>
+ <tileset firstgid="769" source="../tilesets/desert_x2.tsx"/>
+ <tileset firstgid="785" source="../tilesets/desert_x3.tsx"/>
+ <tileset firstgid="801" source="../tilesets/desert_x5.tsx"/>
+ <tileset firstgid="807" source="../tilesets/Tulimshar_Docks.tsx"/>
+ <tileset firstgid="967" source="../tilesets/trans_woodland-desert.tsx"/>
+ <tileset firstgid="1095" source="../tilesets/Crypt-Fringe_x3.tsx"/>
+ <tileset firstgid="1175" source="../tilesets/Crypt-Blockwall.tsx"/>
+ <tileset firstgid="1431" source="../tilesets/Woodland_village.tsx"/>
+ <layer name="Tile Layer 1" width="200" height="200">
+  <data encoding="base64" compression="zlib">
+   eJzt2zEKAjEQhtHZgL2HVXv1BOoJ1Iu6YP2jImzc9RWvTgbm65JhqBoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAv7auZZ8H39i3qsOEjq3/zPCu07iv5wld9MGM6AMyfUCmD8j0AZk+IHvVx6o+pw+WQh+Q6QMyfUCmD8j0AZk+INNHP9v21PseZProx1+Y36cPyPQBmT4g0wdk3u9Cpg/I9AGZPiDTB2T6gEwfkOkDMn1Adh339Tahuz4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAP7dpVVvoZNf6NwAAAAAAAAAAAAAAAAAAAHP1AJRyFRw=
+  </data>
+ </layer>
+ <layer name="Tile Layer 3" width="200" height="200">
+  <data encoding="base64" compression="zlib">
+   eJzt07EJQkEURNGvaAN2INqAaAPagd8KtCQr9gVGwohssAtyDgwsbPKSO00AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD8m0Vt2bDViGOhs3Nt3bDLiGOhs+vU1sc84ljoTB+Q6QMyfUCmD8j0AZk+INMHZPqATB+Q6QMyfUB2r20a9hhxLHS2re1qt/d+fe9HHAudHWrPsOOXv9OIYwEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA+vABApxg9
+  </data>
+ </layer>
+ <layer name="Tile Layer 4" width="200" height="200">
+  <data encoding="base64" compression="zlib">
+   eJzt2k2OFVUAhuHiNiaOm+icyAbQ3gAkOtcWZyoQZebPRGf+JTpUjMEVsgPZgKcCpNtOv0YvmDptP0/y5U5PSL0pTsGyAOXD3bJ8NPbx2N3d1qeBuXw2mvh87IuxL/UBf/HNaOLbse/Gvt95n8BpP48Gfhl7OPbrzvsE/s7Z9wlw4uz7BC47dw5o7hzQ3DmguXMAALw8vl1B8+0Kmm9X0F7Wt6srY7tzdmC2wa4uc7k19vrYodmGuzb22tjtZS7vjr0zdmy24X4Ye3vsvWUuax8Pxh6ZbbxPlzn7WM/0/rh03DHbaB/sTp7FmTw/0ye7rU/CZfZAH5D0AU0f0PQBTR/Q9AFNH9D0AU0f0PQBTR/Q9AFNH9D0AU0f0PQBTR/Q9AFNH9D0AU0f0PQBTR/Q9AFNH9D0AU0f0PQBTR/Q9AFNH9D0AU0f0PQBTR/Q9AFNH9D0AU0f0PQBTR/Q9AFNH9D0AU0f0PQBTR/Q9AFNH9D0AU0f0PQBTR/Q9AFNH9D0AU0f0PQBTR/Q9AFNH9D0AU0f0PQBTR/Q9AFNH9D0AU0f0PQBTR/Q9AFNH9D0AW3t4974vb/1Qc7QBzNY+7g+fm+MHRxsfZoT+tjflbHdObu65aEuqLWPm+P3aJnrWdTH/m6NvXLObm95qAvm8e7pHo3debbfJ3oW9bG/9c/uvD5mu2POau3ij9gs9LG/0328uujj31r7eBKbhT725/3xYp7sTv5+9ePu6X1uvbv9NNGzqI/96ePFPD7Vx3o/X+9z691tpmdRH/tbv9cfnrPZvuFfBKf/fdD33f+H9Xv98dgbZ35vbHmoC+p0Hw8nehb1sb/1e/1vY289+32+oy0PdUH5/yXQ9AFNH9D0AU0f0PQBTR/Q9AFNH9D0AU0f0PQBTR/Q9AFNH9D0AU0f0PQBTR/Q9AFNH9D0AU0f0PQBTR/Q9AFNH9D0AU0f0PQBTR/Q9AFNH9D0AU0f0PQBTR/Q9AFNH9D0AU0f0PQBTR/Q9AFNH9D0AU0f0PQBTR/Q9AFNH9D0AU0f0PQBTR/Q9AFNH9D0AU0f0PQBTR/Q9AFNH9D0AU0f0PQBTR/Q9AFNH9D0AU0f0PQBTR/Q9AFt5j6+HtuZbbyvlvn6uDd2+B/vmtk/3P1lLtfHjs0m2Y1lLjfH3jSbZEcLAAAAAAAAAAAAAAAAl8GfyX/EtQ==
+  </data>
+ </layer>
+ <layer name="Tile Layer 5" width="200" height="200">
+  <data encoding="base64" compression="zlib">
+   eJzt3V1Og0AUBlCEiMbEv7cao67AWJ9dFltwI764MN1B3YBDhNYaSC2JzIDnJDdNCCT3Yb52CgxkGQAAAAAAAAAAAAAAAAAApOs5dgOQsCp2AwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMzecTHOMQBM29GA7/6xjgEAAAD+lnPCpOo9j90BpE1GANjXQZj75+b/0Tz57U6e+RX0kw/Ybaz7otx/BcO5HkJKjMd4/D8HALosy9gdQFwXIQOXv8zBPvsCMF0pnL9KoQcYogr1WG7mTctyew7Vtb3ev4raNQAAAABz4/52AMZSrz1sq4817szNYRjPZceYrq9zfzRZaD+tz4Vt37MhH9BNNqCffAAATMOJ88EAAAAAAAAAAAAAAP/OS6jTPMvOmjoP9Rq7KUjITcjEbVN31szC2qL4ysd9qIcmHwvrk2CtzsNVqOtCNuCn+l1P9bNI3nLvfYIubT6Abqt882xEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAdvsEckccjQ==
+  </data>
+ </layer>
+ <objectgroup name="Object Layer 1" width="200" height="200"/>
+</map>
