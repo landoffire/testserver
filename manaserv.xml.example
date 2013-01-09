@@ -235,7 +235,7 @@
  <option name="char_respawnY" value="832"/>
 
  <!-- Default Map id at character loading -->
- <option name="char_defaultMap" value="1" />
+ <option name="char_defaultMap" value="3" />
 
 <!-- end of characters configuration ************************************** -->
 
