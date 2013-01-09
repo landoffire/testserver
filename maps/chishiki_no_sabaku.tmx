@@ -49,5 +49,20 @@
     <property name="FILENAME" value="scripts/maps/chishiki_no_sabaku.lua"/>
    </properties>
   </object>
+  <object name="Fire Goblin" type="spawn" x="2833" y="3460" width="116" height="209">
+   <properties>
+    <property name="max_beings" value="5"/>
+    <property name="monster_id" value="Fire goblin"/>
+    <property name="spawn_rate" value="10"/>
+   </properties>
+  </object>
+  <object x="3068" y="3587" width="1"/>
+  <object name="Maggots" type="spawn" x="3008" y="3547" width="231" height="117">
+   <properties>
+    <property name="max_beings" value="5"/>
+    <property name="monster_id" value="Maggot"/>
+    <property name="spawn_rate" value="10"/>
+   </properties>
+  </object>
  </objectgroup>
 </map>
