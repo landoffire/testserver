@@ -91,7 +91,7 @@ local packages = {
             "units.xml",
         },
     },
-    --{ name = "music", type = "music", required = "no", paths = { "music" }, },
+    --{ name = "music", type = "music", required = "yes", paths = { "music" }, },
     { name = "sound", paths = { "sfx" }, },
     { name = "maps", paths = { "maps" }, },
     {
