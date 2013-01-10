@@ -6,6 +6,7 @@ local npcs = {
     "little_blue_haired_girl",
     "old_woman",
     "testnpc",
+    "testnpc2",
 }
 
 for i=1,#npcs do

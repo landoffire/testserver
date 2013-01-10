@@ -20,8 +20,15 @@
     <npc id="5"><!-- testnpc -->
         <sprite>races/human/male.xml</sprite>
         <sprite>equipment/legs/chaps-male.xml</sprite>
-        <sprite>equipment/chest/forest-armor-male.xml</sprite>
-        <sprite>equipment/feet/boots-male.xml</sprite>
-        <sprite>equipment/head/bull.xml</sprite>
+        <sprite>equipment/chest/demonwarlordplate-male.xml</sprite>
+        <sprite>equipment/feet/furboots-male.xml</sprite>
+        <sprite>equipment/head/cowboyblack.xml</sprite>
+    </npc>
+    <npc id="6"><!-- testnpc2 -->
+        <sprite>races/human/male.xml</sprite>
+        <sprite>equipment/legs/chaps-male.xml</sprite>
+        <sprite>equipment/chest/leather-male.xml</sprite>
+        <sprite>equipment/feet/furboots-male.xml</sprite>
+        <sprite>equipment/head/monocle.xml</sprite>
     </npc>
 </npcs>
