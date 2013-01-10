@@ -77,7 +77,7 @@
 
     <item id="2" max-per-slot="1" name="Knife" attack-action="attack"
         description="A small knife; the perfect weapon for a beginner."
-        image="equipment/weapon/dagger-knife.png"
+        image="equipment/weapon/dagger-knive.png"
         weight="120">
         <equip>
             <slot type="hand" required="1" />
@@ -125,7 +125,7 @@
 
     <item id="8" max-per-slot="1" name="Sharp Knife" attack-action="attack"
         description="A really sharp knife. Don't hurt yourself!"
-        image="equipment/weapon/dagger-sharp_knife.png"
+        image="equipment/weapon/dagger-sharpknife.png"
         weapon-type="knife"
         weight="150">
         <equip>
