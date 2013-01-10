@@ -77,7 +77,7 @@
 
     <item id="2" max-per-slot="1" name="Knife" attack-action="attack"
         description="A small knife; the perfect weapon for a beginner."
-        image="equipment/weapon/dagger/knife.png"
+        image="equipment/weapon/dagger-knife.png"
         weight="120">
         <equip>
             <slot type="hand" required="1" />
@@ -125,7 +125,7 @@
 
     <item id="8" max-per-slot="1" name="Sharp knife" attack-action="attack"
         description="A really sharp knife. Don't hurt yourself!"
-        image="equipment/weapon/dagger/sharp_knife.png"
+        image="equipment/weapon/dagger-sharp_knife.png"
         weapon-type="knife"
         weight="150">
         <equip>
@@ -139,5 +139,22 @@
         </effect>
         <sprite>equipment/weapon/dagger.xml</sprite>
         <sound event="strike">weapons/knives/sharp_knife_miss1.ogg</sound>
+    </item>
+
+    <item id="9" max-per-slot="1" name="Scythe" attack-action="attack"
+        description="A really sharp scythe. Don't hurt yourself!"
+        image="equipment/weapon/polearm-scythe.png"
+        weapon-type="knife"
+        weight="150">
+        <equip>
+            <slot type="hand" required="2" />
+        </equip>
+        <effect trigger="equip">
+            <autoattack skill="100" warmupspeed="10" cooldownspeed="166"
+                basedamage="100" deltadamage="20" chancetohit="4" range="32"
+                element="neutral" damagetype="physical" />
+            <modifier attribute="acc1" value="1.5" />
+        </effect>
+        <sprite>equipment/weapon/weapon-scythe.xml</sprite>
     </item>
 </items>
