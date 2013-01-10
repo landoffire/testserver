@@ -177,7 +177,7 @@
         <sprite gender="female">equipment/legs/chaps-female.xml</sprite>
     </item>
 
-    <item id="10" max-per-slot="1" name="Bromenal Boots"
+    <item id="11" max-per-slot="1" name="Bromenal Boots"
         description="Steampunk styled boots."
         image="equipment/feet/bromenalboots.png"
         weight="22">
@@ -196,7 +196,7 @@
         <sprite gender="female">equipment//feet/bromenalboots-female.xml</sprite>
     </item>
 
-    <item id="11" max-per-slot="1" name="Monocle"
+    <item id="12" max-per-slot="1" name="Monocle"
         description="A single lens for the high society."
         image="equipment/head/monocle.png"
         weight="5">
