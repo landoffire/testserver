@@ -41,7 +41,7 @@
  </layer>
  <layer name="Collision" width="200" height="200">
   <data encoding="base64" compression="zlib">
-   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
+   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
   </data>
  </layer>
  <objectgroup name="objects" width="200" height="200">
@@ -65,41 +65,58 @@
     <property name="spawn_rate" value="10"/>
    </properties>
   </object>
-  <object name="Entrance 1st Floor" type="warp" x="3205" y="3491" width="20" height="20">
+  <object name="Entrance 1st Floor" type="warp" x="3200" y="3488" width="32" height="32">
    <properties>
     <property name="dest_map" value="conference_floor_1"/>
-    <property name="dest_name" value="Entrance 1st Floor"/>
     <property name="dest_x" value="3200"/>
     <property name="dest_y" value="3200"/>
    </properties>
   </object>
-  <object name="Entrance 2nd Floor" type="Warp" x="3172" y="3363" width="20" height="20">
-   <properties>
-    <property name="DEST_MAP" value="conference_floor_2"/>
-    <property name="DEST_NAME" value="Second Floor"/>
-   </properties>
-  </object>
-  <object name="Roof Exit" type="warp" x="3203" y="3204" width="25" height="25">
+  <object name="Entrance 2nd Floor" type="warp" x="3168" y="3360" width="32" height="32">
    <properties>
     <property name="dest_map" value="conference_floor_2"/>
     <property name="dest_name" value="Second Floor"/>
+   </properties>
+  </object>
+  <object name="Roof Exit" type="warp" x="3200" y="3200" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="conference_floor_2"/>
     <property name="dest_x" value="3200"/>
     <property name="dest_y" value="3200"/>
    </properties>
   </object>
-  <object name="Conference Map Exit" type="warp" x="5860" y="3139" width="24" height="121">
+  <object name="Conference Map Exit" type="warp" x="5856" y="3136" width="32" height="32">
    <properties>
     <property name="dest_map" value="Tulimshar_suburbs"/>
-    <property name="dest_name" value="Tulimshar suburbs"/>
     <property name="dest_x" value="672"/>
     <property name="dest_y" value="3200"/>
    </properties>
   </object>
-  <object name="Entrance 2nd Floor" type="warp" x="3172" y="3363" width="20" height="20">
+  <object name="Entrance 2nd Floor" type="warp" x="3200" y="3360" width="32" height="32">
    <properties>
     <property name="dest_map" value="conference_floor_2"/>
-    <property name="dest_name" value="Second Floor"/>
     <property name="dest_x" value="3200"/>
+    <property name="dest_y" value="3200"/>
+   </properties>
+  </object>
+  <object name="Conference Map Exit" type="warp" x="5856" y="3168" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="Tulimshar_suburbs"/>
+    <property name="dest_x" value="672"/>
+    <property name="dest_y" value="3200"/>
+   </properties>
+  </object>
+  <object name="Conference Map Exit" type="warp" x="5856" y="3200" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="Tulimshar_suburbs"/>
+    <property name="dest_x" value="672"/>
+    <property name="dest_y" value="3200"/>
+   </properties>
+  </object>
+  <object name="Conference Map Exit" type="warp" x="5856" y="3232" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="Tulimshar_suburbs"/>
+    <property name="dest_x" value="672"/>
     <property name="dest_y" value="3200"/>
    </properties>
   </object>
