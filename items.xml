@@ -216,7 +216,7 @@
 
     <item id="13" max-per-slot="1" name="Tattered Warlord Plate"
         description="A tattered warlord plate."
-        image="equipment/chest/warlordplate"
+        image="equipment/chest/warlordplate.png"
         weight="200">
         <equip>
             <slot type="torso" required="1" />
