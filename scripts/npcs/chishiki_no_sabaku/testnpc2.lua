@@ -1,6 +1,6 @@
 function testnpc2_talk(npc, ch)
     npc_say(npc, ch, "Good day!",
-            "This is Pihro's first self written lua script."
+            "This is Pihro's first self written lua script. "
             .. "His learning of manaserv is increasing in volume.")
 end
 

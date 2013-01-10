@@ -213,4 +213,22 @@
         </effect>
         <sprite>equipment/head/monocle.xml</sprite>
     </item>
+
+    <item id="13" max-per-slot="1" name="Tattered Warlord Plate"
+        description="A tattered warlord plate."
+        image="equipment/chest/warlordplate"
+        weight="200">
+        <equip>
+            <slot type="torso" required="1" />
+        </equip>
+        <!--
+        <effect trigger="equip">
+            <modifier attribute="M. Attack" value="-200" />
+        </effect>
+        -->
+        <effect trigger="equip">
+            <modifier attribute="def1" value="65" />
+        </effect>
+        <sprite>equipment/chest/demonwarlordplate-male.xml</sprite>
+    </item>
 </items>
