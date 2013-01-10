@@ -56,7 +56,7 @@
         <sprite gender="female">races/human/female.xml</sprite>
     </item>
 
-    <item id="1" max-per-slot="1" name="Cotton shirt"
+    <item id="1" max-per-slot="1" name="Cotton Shirt"
         description="A shirt made of 100% cotton."
         image="equipment/chest/cotton_shirt.png|W:#a4b2b2,ffffff"
         weight="13">
@@ -91,11 +91,11 @@
         <sprite>equipment/weapon/dagger.xml</sprite>
     </item>
 
-    <item id="3" max-per-slot="99" name="Maggot slime"
+    <item id="3" max-per-slot="99" name="Maggot Slime"
         description="Slimy maggot slime." image="generic/maggot_slime.png"
         weight="1" />
 
-    <item id="4" max-per-slot="99" name="Cactus drink"
+    <item id="4" max-per-slot="99" name="Cactus Drink"
         description="A fresh drink." image="use/potions/tiny.png|G:#22ff22"
         type="usable" hp="15" weight="4" tag="Potions">
         <effect trigger="activation">
@@ -104,11 +104,11 @@
         </effect>
     </item>
 
-    <item id="5" max-per-slot="99" name="Bug leg"
+    <item id="5" max-per-slot="99" name="Bug Leg"
         description="A bug's leg. Mostly used for alchemy."
         image="generic/bug_leg.png" type="generic" weight="1" />
 
-    <item id="6" max-per-slot="99" name="Roasted maggot"
+    <item id="6" max-per-slot="99" name="Roasted Maggot"
         description="A maggot roasted on fire."
         image="use/food/roasted_maggot.png"
         type="usable" hp="150" weight="5">
@@ -118,12 +118,12 @@
         </effect>
     </item>
 
-    <item id="7" max-per-slot="99" name="Cactus potion"
+    <item id="7" max-per-slot="99" name="Cactus Potion"
         description="A fresh potion."
         image="use/potions/tiny.png|G:#ff2222"
         type="usable" hp="25" weight="7" tag="Potions" />
 
-    <item id="8" max-per-slot="1" name="Sharp knife" attack-action="attack"
+    <item id="8" max-per-slot="1" name="Sharp Knife" attack-action="attack"
         description="A really sharp knife. Don't hurt yourself!"
         image="equipment/weapon/dagger-sharp_knife.png"
         weapon-type="knife"
@@ -156,5 +156,61 @@
             <modifier attribute="acc1" value="1.5" />
         </effect>
         <sprite>equipment/weapon/weapon-scythe.xml</sprite>
+    </item>
+
+    <item id="10" max-per-slot="1" name="Jeans Chaps"
+        description="Jeans and snakeskin chaps."
+        image="equipment/legs/chaps.png"
+        weight="22">
+        <equip>
+            <slot type="legs" required="1" />
+        </equip>
+        <!--
+        <effect trigger="equip">
+            <modifier attribute="M. Attack" value="-4" />
+        </effect>
+        -->
+        <effect trigger="equip">
+            <modifier attribute="def1" value="8" />
+        </effect>
+        <sprite gender="male">equipment/legs/chaps-male.xml</sprite>
+        <sprite gender="female">equipment/legs/chaps-female.xml</sprite>
+    </item>
+
+    <item id="10" max-per-slot="1" name="Bromenal Boots"
+        description="Steampunk styled boots."
+        image="equipment/feet/bromenalboots.png"
+        weight="22">
+        <equip>
+            <slot type="feet" required="1" />
+        </equip>
+        <!--
+        <effect trigger="equip">
+            <modifier attribute="M. Attack" value="-4" />
+        </effect>
+        -->
+        <effect trigger="equip">
+            <modifier attribute="def1" value="8" />
+        </effect>
+        <sprite gender="male">equipment/feet/bromenalboots-male.xml</sprite>
+        <sprite gender="female">equipment//feet/bromenalboots-female.xml</sprite>
+    </item>
+
+    <item id="11" max-per-slot="1" name="Monocle"
+        description="A single lens for the high society."
+        image="equipment/head/monocle.png"
+        weight="5">
+        <equip>
+            <slot type="head" required="1" />
+        </equip>
+        <!--
+        <effect trigger="equip">
+            <modifier attribute="M. Attack" value="+4" />
+        </effect>
+        -->
+        <effect trigger="equip">
+            <modifier attribute="def1" value="3" />
+        </effect>
+        <sprite>equipment/head/monocle.xml</sprite>
     </item>
 </items>
