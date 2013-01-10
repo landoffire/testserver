@@ -193,7 +193,7 @@
             <modifier attribute="def1" value="8" />
         </effect>
         <sprite gender="male">equipment/feet/bromenalboots-male.xml</sprite>
-        <sprite gender="female">equipment//feet/bromenalboots-female.xml</sprite>
+        <sprite gender="female">equipment/feet/bromenalboots-female</sprite>
     </item>
 
     <item id="12" max-per-slot="1" name="Monocle"
