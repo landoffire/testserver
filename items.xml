@@ -251,7 +251,7 @@
         <sprite gender="female">equipment/chest/leather-female.xml|#251e06,443c21,71653b,a0945e;#b6574a</sprite>
     </item>
 
-<item id="15" max-per-slot="1" name="Siletto" attack-action="attack"
+<item id="15" max-per-slot="1" name="Stiletto" attack-action="attack"
         description="A dagger with a long and thin blade."
         image="equipment/weapon/polearm-scythe.png"
         weapon-type="knife"
