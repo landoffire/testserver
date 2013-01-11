@@ -253,7 +253,7 @@
 
 <item id="15" max-per-slot="1" name="Stiletto" attack-action="attack"
         description="A dagger with a long and thin blade."
-        image="equipment/weapon/polearm-scythe.png"
+        image="equipment/weapon/dagger-dagger.png"
         weapon-type="knife"
         weight="120">
         <equip>
@@ -265,6 +265,6 @@
                 element="neutral" damagetype="physical" />
             <modifier attribute="acc1" value="6" />
         </effect>
-        <sprite>equipment/weapon/weapon-witchguard-gladius.xml</sprite>
+        <sprite>equipment/weapon-witchguard-gladius.xml</sprite>
     </item>
 </items>
