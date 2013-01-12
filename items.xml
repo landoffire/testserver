@@ -193,7 +193,7 @@
             <modifier attribute="def1" value="8" />
         </effect>
         <sprite gender="male">equipment/feet/bromenalboots-male.xml</sprite>
-        <sprite gender="female">equipment//feet/bromenalboots-female.xml</sprite>
+        <sprite gender="female">equipment/feet/bromenalboots-female</sprite>
     </item>
 
     <item id="12" max-per-slot="1" name="Monocle"
@@ -216,7 +216,7 @@
 
     <item id="13" max-per-slot="1" name="Tattered Warlord Plate"
         description="A tattered warlord plate."
-        image="equipment/chest/warlordplate"
+        image="equipment/chest/warlordplate.png"
         weight="200">
         <equip>
             <slot type="torso" required="1" />
@@ -230,5 +230,41 @@
             <modifier attribute="def1" value="65" />
         </effect>
         <sprite>equipment/chest/demonwarlordplate-male.xml</sprite>
+    </item>
+
+<item id="14" max-per-slot="1" name="Desert Shirt"
+        description="A shirt made of 100% cotton."
+        image="equipment/chest/desertshirt.png"
+        weight="20">
+        <equip>
+            <slot type="torso" required="1" />
+        </equip>
+        <!--
+        <effect trigger="equip">
+            <modifier attribute="M. Attack" value="-4" />
+        </effect>
+        -->
+        <effect trigger="equip">
+            <modifier attribute="def1" value="6" />
+        </effect>
+       <sprite gender="male">equipment/chest/leather-male.xml|#443c21,85794a,beb590,ffffff;#824035,d6a19a</sprite>
+        <sprite gender="female">equipment/chest/leather-female.xml|#251e06,443c21,71653b,a0945e;#b6574a</sprite>
+    </item>
+
+<item id="15" max-per-slot="1" name="Stiletto" attack-action="attack"
+        description="A dagger with a long and thin blade."
+        image="equipment/weapon/dagger-dagger.png"
+        weapon-type="knife"
+        weight="120">
+        <equip>
+            <slot type="hand" required="2" />
+        </equip>
+        <effect trigger="equip">
+            <autoattack skill="100" warmupspeed="10" cooldownspeed="166"
+                basedamage="160" deltadamage="20" chancetohit="4" range="32"
+                element="neutral" damagetype="physical" />
+            <modifier attribute="acc1" value="6" />
+        </effect>
+        <sprite>equipment/weapon-witchguard-gladius.xml</sprite>
     </item>
 </items>

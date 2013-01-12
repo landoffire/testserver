@@ -66,4 +66,18 @@
             aft-delay="5" damage-factor="1" range="32" animation="attack"
             script-event="strike" effect-id="5"/>
     </monster>
+
+ <monster id="4" name="Pinkie">
+        <sprite>monsters/pinkie.xml</sprite>
+        <attributes hp="20" size="4" speed="10.0" attack-min="10"
+            attack-delta="5" attack-magic="0" hit="20" evade="5"
+            magical-evade="5" physical-defence="5" magical-defence="0"
+            mutation="30"/>
+        <exp>1000</exp>
+        <behavior aggressive="true" cowardly="false" track-range="10"
+            stroll-range="64" attack-distance="32"/>
+        <attack id="1" priority="1" type="physical" pre-delay="10"
+            aft-delay="5" damage-factor="1" range="32" animation="attack"
+            script-event="strike" effect-id="5"/>
+    </monster>
 </monsters>
