@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="200" height="200" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" source="../tilesets/inn.tsx"/>
+ <tileset firstgid="257" source="../tilesets/inn2.tsx"/>
+ <tileset firstgid="513" source="../tilesets/inn_x2.tsx"/>
+ <tileset firstgid="545" source="../tilesets/inn_x3.tsx"/>
+ <tileset firstgid="577" source="../tilesets/inn_x4.tsx"/>
+ <tileset firstgid="593" source="../tilesets/Crypt-Archways.tsx"/>
+ <tileset firstgid="849" source="../tilesets/Crypt-Blockwall.tsx"/>
+ <tileset firstgid="1105" source="../tilesets/Crypt-Fringe.tsx"/>
+ <tileset firstgid="1361" source="../tilesets/Crypt-Fringe_x3-fixme.tsx"/>
+ <tileset firstgid="1601" source="../tilesets/woodland_indoor.tsx"/>
+ <tileset firstgid="1857" source="../tilesets/collision.tsx"/>
+ <layer name="Ground" width="200" height="200">
+  <data encoding="base64" compression="zlib">
+   eJzt2LERwjAQRUEHDM24CkqgBKADagAqAFeAXScXcAqwFV/ABjtKf/JGI427YRgBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/tR531e9DarpA/r0AX3ZwmFD9Taoln0cN1Rvg2rZxy3cwyOcvqq3QbXs4xleYfL+gCZbeIc5LPqAxv8V9GULl59TH7Duw/0Ba1c9AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADQfRGzDpQ==
+  </data>
+ </layer>
+ <layer name="Lower" width="200" height="200">
+  <data encoding="base64" compression="zlib">
+   eJzt07EOAUEUBdA3imnolLbS2j/xCZsgvoU/VavoPZnEJiqdDeckN+9ON82NAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA3zAvEYvS7izG/rzw71a5g660u4yxd/YBsckd9KXddYy9tw8APnTLXDL3b38EJmZbI3aZfeZQ2xtohrd9DPYBL6fcwzlzzX6sLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwPQ8AE/hC5s=
+  </data>
+ </layer>
+ <layer name="Fringe" width="200" height="200">
+  <data encoding="base64" compression="zlib">
+   eJzt1b0JAlEQRtEXbWuCghprB9qDbAViBWqB/ixsA07ishiazATnwM2/ZJjWAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAf5y61tbRJtpGfZe9COo4/9zDxX3A5Br3cJt1dx8weUTP6J09BApaRGM0ZA+Bgr7/45U9BIpbRqvsEVDULtpnj4CiDtExewQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUNIH2DQQRQ==
+  </data>
+ </layer>
+ <layer name="Over" width="200" height="200">
+  <data encoding="base64" compression="zlib">
+   eJztzqERADAIADEUY/cYHcEGFWAS8/YjAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAX5XTl7cfAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABbGpMCAQs=
+  </data>
+ </layer>
+ <layer name="Collision" width="200" height="200" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzt2KENACAMRUEcc8H+QyEQJIQPEnPifM1L0/ZaSgcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA2LSL37PBb/qAbG9BF7DYFZCd+tAMTKebQx8w2R+Q+V9Bpg/IdAFvugAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABYBt2VkKA=
+  </data>
+ </layer>
+ <objectgroup name="objects" width="200" height="200">
+  <object name="Exit 2" type="warp" x="3168" y="3360" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="chishiki_no_sabaku"/>
+    <property name="dest_x" value="3168"/>
+    <property name="dest_y" value="3392"/>
+   </properties>
+  </object>
+  <object name="2nd Floor Entrance" type="warp" x="3232" y="3104" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="conference_floor_one"/>
+    <property name="dest_x" value="3264"/>
+    <property name="dest_y" value="3136"/>
+   </properties>
+  </object>
+  <object name="Roof Hatch" type="warp" x="3200" y="3200" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="chishiki_no_sabaku"/>
+    <property name="dest_x" value="3200"/>
+    <property name="dest_y" value="3232"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
