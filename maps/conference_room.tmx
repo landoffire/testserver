@@ -33,15 +33,15 @@
    eJzt07EJACAMBMAU4jLuKI5u4QwagnfwpP3iEwEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABARaufO3tuDwAAAAAAAAAAAAAAAAAAAADgrdHqB27J3rb/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4BcbYHsTCQ==
   </data>
  </layer>
- <layer name="Collision" width="200" height="200">
+ <layer name="Collision" width="200" height="200" visible="0">
   <data encoding="base64" compression="zlib">
    eJzt27ENgDAMAEE65iL7D8UA8EJpQChXXO/C31jy2LdtAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABwcUz4elZ4mz6g6QOaPqA97b8+WJk+oOkDmj6g6QOa+xW0mT70wmr0AW22B31A0wc0fUDTBzR9QNMHNH1A0wc0fUDTBzR9QNMHNH1A0wc0fUDTB6uZ2XV9sBp9QNMH3PN/Dk0f0PQBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/N0JC9mP7g==
   </data>
  </layer>
- <objectgroup name="Objects" width="200" height="200">
+ <objectgroup name="objects" width="200" height="200">
   <object name="To 1st Floor" type="warp" x="2976" y="3328" width="32" height="32">
    <properties>
-    <property name="dest_map" value="conference_floor_1"/>
+    <property name="dest_map" value="conference_floor_one"/>
     <property name="dest_x" value="3008"/>
     <property name="dest_y" value="3328"/>
    </properties>
