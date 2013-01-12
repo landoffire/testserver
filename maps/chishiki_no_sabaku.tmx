@@ -39,7 +39,7 @@
    eJzt17EJADAMA0EneP+ZnQXSpAmIO/heraoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABIs077of4xFgAAiHL7I/4GAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQI4BhfsALw==
   </data>
  </layer>
- <layer name="Collision" width="200" height="200">
+ <layer name="Collision" width="200" height="200" visible="0">
   <data encoding="base64" compression="zlib">
    eJzt2sFOW1cARdGM+P9Z+rlVFSHALeVhY3vZZy/pTppK2b7vPAVIfv1KkiRJkiRJkiRJkiRJkiRJkiS5jd8vf86R/+8nf7+jv++zO72PTkc4ir9eOh3rSO59F53O6ZHc+y46ndMjEZuySdyi2JRN4hbFpmwStyg2ZZO4RbEpm8Qtik3ZJG5RbPqOR27PR+IWxaZc5lGfp7jFWzVpnzue5fcj+Yq4RbEpm8Qtik3ZJG5RbMomcYtSk9KR+5C2+EpsyiZxi2JTNolbFJuySdyi2JRN4hbFpmwStyg2ZZO4RbEpm8Qtik25zKM+T3GLYlM2iVsUm7JJ3KLYlJ/zSM9W3KLY9Gy632PELYpN2SRuUWzKJnGLYlM2iVsUm7JJ3KLYlE3iFsWmbBK3KDZlk7hFsSmbxC2KTdkkblFsyiZxi2JTNolbFJuySdyi2JRN4hbFpmwStyg2ZZO4RbEpm8Qtik3ZJG5RbMomcYtiUzaJWxSbskncotiUTeIWxaZsErcoNmWTuEWxKZvELYpN2SRuUWzKJnGLYlM2iVsUm7JJ3KLYlE3iFsWmbBK3KDZlk7hFsSmbxC2KTdkkblFsyiZxi2JTNolbFJuySdyi2JRN4hbFpmwStyg2feZROnMecYtiUzaJWxSbNOfcT3f6feIWr9mkfdbY1t6PR3WrPy+694/ELYpN2SRuUWzKJnGLYlM2iVsUm7JJ3KLYpPr9cv45Yv05iFsUm1Svd3XOydfEuxKbVJ/d1et/++zXut9jxLsSm1Tn3lP3e8zrFr/zNem19X78ceQeTn/96Pcb3e8x4tekUovu9J6Ofr/R/X6fcme9H8cd3X3vx+WUO+v9+Ldzdv/+a6pz36O8Ue6m9+O4W//5sfxclM/e+/Hmu9+f9/XVz+r788fW+3Fd73++q+j9OK6fX12XuMVrN2mf9xL/9Vne/31H34dfZvH9eCZ9n31d4hbFJlX/PvG6xLsSm+7lyM+vrv1+LD8LcYtik+r0ro78/WD3e5x4V2JTNolbFJuySdyi2JRN4hbFplyX+rzFLYpN2SRuUWy6t1vdR/f+kbhFsSmbxC2KTc+qu/5/4v2ITZLP7qc7+3niFsWm9+S2/Cxxi2JTNolbFJuySdyi2JRN4hbFpmwStyg25c3SsxG3KDZlk7hFsSmbxC2KTdkkblFsyiZxi2JTNolbFJuySdyi2JRN4hbFpke1co/X+pziFsWmbBK3KDZlk7hFsSmbxC2KTdkkblFsyiZxi2JTNolbFJuySdyi2JRN4hbFpmwStyg2ZZO4RbEpm8Qtik3ZJG5RbMomcYtiUzaJWxSbskncotiUTeIWxaZsErcoNmWTuMVbNWmfO57l9yP5irhFsSmbxC2KTdkkblFselTd42XELYpN2SRuUWzKJnGLYlM2iVsUm7JJ3KLYlOvQn7O4RbEp93HvHYhbFJuySdyi2JTPPfOzEreoNUktuS1ti/8Qm7JJ3KLYlOuRn7W4RbEpm8Qtik3ZJG5RbMomcYtiUzaJWxSbskncotiUTeIWxaZsErcoNmWTuEWxKZvELYpN2SRuUWzKJnGLYlM2iVsUm7JJ3OJPN/1+6XTOO/L70ekoR3Lvu+h0To/k3nfR6ZyeJEmSJEmSJEmSJEmSJEmSJEmSPL+/AQihHxc=
   </data>
@@ -66,14 +66,14 @@
   </object>
   <object name="Entrance 1st Floor" type="warp" x="3200" y="3488" width="32" height="32">
    <properties>
-    <property name="dest_map" value="conference_floor_1"/>
-    <property name="dest_x" value="3200"/>
-    <property name="dest_y" value="3200"/>
+    <property name="dest_map" value="conference_floor_one"/>
+    <property name="dest_x" value="3232"/>
+    <property name="dest_y" value="3488"/>
    </properties>
   </object>
   <object name="Roof Exit" type="warp" x="3200" y="3200" width="32" height="32">
    <properties>
-    <property name="dest_map" value="conference_floor_2"/>
+    <property name="dest_map" value="conference_floor_two"/>
     <property name="dest_x" value="3168"/>
     <property name="dest_y" value="3200"/>
    </properties>
@@ -87,7 +87,7 @@
   </object>
   <object name="Entrance 2nd Floor" type="warp" x="3168" y="3360" width="32" height="32">
    <properties>
-    <property name="dest_map" value="conference_floor_2"/>
+    <property name="dest_map" value="conference_floor_two"/>
     <property name="dest_x" value="3200"/>
     <property name="dest_y" value="3200"/>
    </properties>
