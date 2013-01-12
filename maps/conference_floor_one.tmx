@@ -10,7 +10,9 @@
  <tileset firstgid="1105" source="../tilesets/Crypt-Fringe.tsx"/>
  <tileset firstgid="1361" source="../tilesets/Crypt-Fringe_x3-fixme.tsx"/>
  <tileset firstgid="1601" source="../tilesets/woodland_indoor.tsx"/>
- <tileset firstgid="1857" source="../tilesets/collision.tsx"/>
+ <tileset firstgid="1857" name="collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
+ </tileset>
  <layer name="Ground" width="200" height="200">
   <data encoding="base64" compression="zlib">
    eJzt2UEKwjAQQNEuxMv0FB6hR9BeRj21FRRcZDLZhKp5iwctpYtZfAKZ+TBNMwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/JjLsa7ln71ngF70ATF9QEwfEGvpo/auD/5Z1sepQB+MIutjKdAHo8j6OBfog1FkfbTYewboRR8Q0wfE9AGx533tdXPb3Ct3uPpgRPqA2PJq4y3aceiDEZX2G587jrXhee8ZoJfsbFiT7/oAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgO/1AOmw7D0=
