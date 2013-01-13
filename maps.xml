@@ -3,7 +3,7 @@
     <map id="1" name="Tulimshar_suburbs" /> <!-- was 042-1 -->
     <map id="2" name="Tulimshar_suburbs_indoor" /> <!-- was 042-2 -->
     <map id="3" name="chishiki_no_sabaku"/>
-    <map id="4" name="conference_room_one"/>
-    <map id="5" name="conference_room_two"/>
+    <map id="4" name="conference_floor_one"/>
+    <map id="5" name="conference_floor_two"/>
     <map id="6" name="conference_room"/>
 </maps>
