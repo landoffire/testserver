@@ -44,52 +44,73 @@
    eJzt2sFOW1cARdGM+P9Z+rlVFSHALeVhY3vZZy/pTppK2b7vPAVIfv1KkiRJkiRJkiRJkiRJkiRJkiS5jd8vf86R/+8nf7+jv++zO72PTkc4ir9eOh3rSO59F53O6ZHc+y46ndMjEZuySdyi2JRN4hbFpmwStyg2ZZO4RbEpm8Qtik3ZJG5RbPqOR27PR+IWxaZc5lGfp7jFWzVpnzue5fcj+Yq4RbEpm8Qtik3ZJG5RbMomcYtSk9KR+5C2+EpsyiZxi2JTNolbFJuySdyi2JRN4hbFpmwStyg2ZZO4RbEpm8Qtik25zKM+T3GLYlM2iVsUm7JJ3KLYlJ/zSM9W3KLY9Gy632PELYpN2SRuUWzKJnGLYlM2iVsUm7JJ3KLYlE3iFsWmbBK3KDZlk7hFsSmbxC2KTdkkblFsyiZxi2JTNolbFJuySdyi2JRN4hbFpmwStyg2ZZO4RbEpm8Qtik3ZJG5RbMomcYtiUzaJWxSbskncotiUTeIWxaZsErcoNmWTuEWxKZvELYpN2SRuUWzKJnGLYlM2iVsUm7JJ3KLYlE3iFsWmbBK3KDZlk7hFsSmbxC2KTdkkblFsyiZxi2JTNolbFJuySdyi2JRN4hbFpmwStyg2feZROnMecYtiUzaJWxSbNOfcT3f6feIWr9mkfdbY1t6PR3WrPy+694/ELYpN2SRuUWzKJnGLYlM2iVsUm7JJ3KLYpPr9cv45Yv05iFsUm1Svd3XOydfEuxKbVJ/d1et/++zXut9jxLsSm1Tn3lP3e8zrFr/zNem19X78ceQeTn/96Pcb3e8x4tekUovu9J6Ofr/R/X6fcme9H8cd3X3vx+WUO+v9+Ldzdv/+a6pz36O8Ue6m9+O4W//5sfxclM/e+/Hmu9+f9/XVz+r788fW+3Fd73++q+j9OK6fX12XuMVrN2mf9xL/9Vne/31H34dfZvH9eCZ9n31d4hbFJlX/PvG6xLsSm+7lyM+vrv1+LD8LcYtik+r0ro78/WD3e5x4V2JTNolbFJuySdyi2JRN4hbFplyX+rzFLYpN2SRuUWy6t1vdR/f+kbhFsSmbxC2KTc+qu/5/4v2ITZLP7qc7+3niFsWm9+S2/Cxxi2JTNolbFJuySdyi2JRN4hbFpmwStyg25c3SsxG3KDZlk7hFsSmbxC2KTdkkblFsyiZxi2JTNolbFJuySdyi2JRN4hbFpke1co/X+pziFsWmbBK3KDZlk7hFsSmbxC2KTdkkblFsyiZxi2JTNolbFJuySdyi2JRN4hbFpmwStyg2ZZO4RbEpm8Qtik3ZJG5RbMomcYtiUzaJWxSbskncotiUTeIWxaZsErcoNmWTuMVbNWmfO57l9yP5irhFsSmbxC2KTdkkblFselTd42XELYpN2SRuUWzKJnGLYlM2iVsUm7JJ3KLYlOvQn7O4RbEp93HvHYhbFJuySdyi2JTPPfOzEreoNUktuS1ti/8Qm7JJ3KLYlOuRn7W4RbEpm8Qtik3ZJG5RbMomcYtiUzaJWxSbskncotiUTeIWxaZsErcoNmWTuEWxKZvELYpN2SRuUWzKJnGLYlM2iVsUm7JJ3OJPN/1+6XTOO/L70ekoR3Lvu+h0To/k3nfR6ZyeJEmSJEmSJEmSJEmSJEmSJEmSPL+/AQihHxc=
   </data>
  </layer>
- <objectgroup color="#aa0000" name="objects" width="200" height="200">
-  <object name="Main Script" type="SCRIPT" x="2951" y="2138" width="125" height="117">
+ <objectgroup name="objects" width="200" height="200">
+  <object name="Main Script" type="SCRIPT" x="3149" y="2128" width="209" height="160">
    <properties>
     <property name="FILENAME" value="scripts/maps/chishiki_no_sabaku.lua"/>
    </properties>
   </object>
-  <object name="Fire Goblin" type="spawn" x="2833" y="3460" width="116" height="209">
-   <properties>
-    <property name="max_beings" value="5"/>
-    <property name="monster_id" value="Fire goblin"/>
-    <property name="spawn_rate" value="10"/>
-   </properties>
-  </object>
-  <object name="Maggots" type="spawn" x="3008" y="3547" width="231" height="117">
-   <properties>
-    <property name="max_beings" value="5"/>
-    <property name="monster_id" value="Maggot"/>
-    <property name="spawn_rate" value="10"/>
-   </properties>
-  </object>
-  <object name="Conference Map Exit" type="warp" x="5856" y="3136" width="32" height="128">
+  <object name="Warp to Tulim" type="warp" x="5824" y="3136" width="32" height="128">
    <properties>
     <property name="dest_map" value="Tulimshar_suburbs"/>
     <property name="dest_x" value="32"/>
     <property name="dest_y" value="2560"/>
    </properties>
   </object>
-  <object name="Conference Building Entrance" type="warp" x="3200" y="3488" width="32" height="32">
+  <object name="Pinkie Spawn" type="spawn" x="842" y="5238" width="252" height="294">
+   <properties>
+    <property name="max_beings" value="15"/>
+    <property name="monster_id" value="Pinkie"/>
+    <property name="spawn_rate" value="10"/>
+   </properties>
+  </object>
+  <object name="Maggot Spawn" type="spawn" x="3000" y="3574" width="334" height="120">
+   <properties>
+    <property name="max_beings" value="10"/>
+    <property name="monster_id" value="Maggot"/>
+    <property name="spawn_rate" value="10"/>
+   </properties>
+  </object>
+  <object name="Maggot Spawn" type="spawn" x="2838" y="2842" width="334" height="120">
+   <properties>
+    <property name="max_beings" value="10"/>
+    <property name="monster_id" value="Maggot"/>
+    <property name="spawn_rate" value="10"/>
+   </properties>
+  </object>
+  <object name="Fire Goblin Spawn" type="spawn" x="3528" y="3346" width="126" height="118">
+   <properties>
+    <property name="max_beings" value="10"/>
+    <property name="monster_id" value="Fire goblin"/>
+    <property name="spawn_rate" value="10"/>
+   </properties>
+  </object>
+  <object name="Fire Goblin Spawn" type="spawn" x="3508" y="2988" width="126" height="118">
+   <properties>
+    <property name="max_beings" value="10"/>
+    <property name="monster_id" value="Fire goblin"/>
+    <property name="spawn_rate" value="10"/>
+   </properties>
+  </object>
+  <object name="Fire Goblin Spawn" type="spawn" x="2824" y="3368" width="126" height="118">
+   <properties>
+    <property name="max_beings" value="10"/>
+    <property name="monster_id" value="Fire goblin"/>
+    <property name="spawn_rate" value="10"/>
+   </properties>
+  </object>
+  <object name="Maggot Spawn" type="spawn" x="3478" y="3160" width="116" height="124">
+   <properties>
+    <property name="max_beings" value="10"/>
+    <property name="monster_id" value="Maggot"/>
+    <property name="spawn_rate" value="10"/>
+   </properties>
+  </object>
+  <object name="Warp to Conference Floor One" type="warp" x="3200" y="3488" width="32" height="32">
    <properties>
     <property name="dest_map" value="conference_floor_one"/>
-    <property name="dest_x" value="3232"/>
-    <property name="dest_y" value="3488"/>
-   </properties>
-  </object>
-  <object name="Conference Map Exit" type="warp" x="3168" y="3360" width="32" height="32">
-   <properties>
-    <property name="dest_map" value="conference_floor_two"/>
-    <property name="dest_x" value="3168"/>
-    <property name="dest_y" value="3296"/>
-   </properties>
-  </object>
-  <object name="Roof Exit" type="warp" x="3200" y="3200" width="32" height="32">
-   <properties>
-    <property name="dest_map" value="conference_floor_two"/>
-    <property name="dest_x" value="3168"/>
-    <property name="dest_y" value="3200"/>
+    <property name="dest_x" value="3200"/>
+    <property name="dest_y" value="3456"/>
    </properties>
   </object>
  </objectgroup>
