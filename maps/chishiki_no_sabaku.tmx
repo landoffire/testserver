@@ -106,11 +106,11 @@
     <property name="spawn_rate" value="10"/>
    </properties>
   </object>
-  <object name="Warp to Conference Room" type="warp" x="3200" y="3488" width="32" height="32">
+  <object name="Warp to Conference Floor One" type="warp" x="3200" y="3488" width="32" height="32">
    <properties>
-    <property name="dest_map" value="conference_room"/>
-    <property name="dest_x" value="2976"/>
-    <property name="dest_y" value="3424"/>
+    <property name="dest_map" value="conference_floor_one"/>
+    <property name="dest_x" value="3200"/>
+    <property name="dest_y" value="3456"/>
    </properties>
   </object>
  </objectgroup>
