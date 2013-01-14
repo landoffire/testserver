@@ -92,5 +92,26 @@
     <property name="dest_y" value="3200"/>
    </properties>
   </object>
+  <object name="Fire Goblin" type="spawn" x="3481" y="3154" width="116" height="209">
+   <properties>
+    <property name="max_beings" value="5"/>
+    <property name="monster_id" value="Fire goblin"/>
+    <property name="spawn_rate" value="10"/>
+   </properties>
+  </object>
+  <object name="Maggots" type="spawn" x="2920" y="2845" width="231" height="117">
+   <properties>
+    <property name="max_beings" value="5"/>
+    <property name="monster_id" value="Maggot"/>
+    <property name="spawn_rate" value="10"/>
+   </properties>
+  </object>
+  <object name="Pinkie Spawn" type="spawn" x="840" y="5482" width="356" height="196">
+   <properties>
+    <property name="max_beings" value="15"/>
+    <property name="monster_id" value="Pinkie"/>
+    <property name="spawn_rate" value="10"/>
+   </properties>
+  </object>
  </objectgroup>
 </map>
