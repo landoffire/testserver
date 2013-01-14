@@ -233,7 +233,7 @@
     </item>
 
 <item id="14" max-per-slot="1" name="Desert Shirt"
-        description="A shirt made of 100% cotton."
+        description="A shirt for the desert dwellers."
         image="equipment/chest/desertshirt.png"
         weight="20">
         <equip>
