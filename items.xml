@@ -268,7 +268,7 @@
         <sprite>equipment/weapon/weapon-witchguard-gladius.xml</sprite>
     </item>
 
-<item id="15" max-per-slot="1" name="Bow" attack-action="attack"
+<item id="16" max-per-slot="1" name="Bow" attack-action="attack"
         description="A small wooden bow."
         image="equipment/weapon/bow-bow.png"
         weapon-type="knife"
