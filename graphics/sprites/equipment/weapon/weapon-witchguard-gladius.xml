@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <sprite name="player" action="stand">
   <imageset name="icegladius" src="graphics/sprites/equipment/weapon/weapon-witchguard-gladius.png" width="64" height="64"/>
-  <action name="default" imageset="icegladius"/>
-  <action name="attack" imageset="icegladius">
+  <action name="default" imageset="darkgladius"/>
+  <action name="attack" imageset="darkgladius">
     <animation direction="down">
       <sequence start="0" end="3" delay="75"/>
       <end/>
