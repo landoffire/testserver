@@ -150,7 +150,7 @@
  <option name="net_chatListenToClientPort" value="9603"/>
  <!-- needed to set when hosting behind router or in situations
       where you cannot bind the server to the public url -->
- <-- <option name="net_publicChatHost" value="landoffire.org"/> -->
+ <!-- <option name="net_publicChatHost" value="landoffire.org"/> -->
 
  <!--
  The clients use this address to connect to a game server on this machine.
